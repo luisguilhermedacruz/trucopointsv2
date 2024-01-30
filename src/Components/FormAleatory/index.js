@@ -1,4 +1,3 @@
-// FormAleatory.jsx
 import React, { useState } from "react";
 import "./aleatory.css";
 import Score from "../Score"; 
