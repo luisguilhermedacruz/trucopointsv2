@@ -1,0 +1,15 @@
+@import '../../variables.css';
+
+.button {
+    background-color: var(--color_white);
+    padding: 1px 10px;
+    border-radius: 20px;
+    font-family: var(--font_two);
+    color: var(--color_red);
+    border: solid 4px #000000;
+}
+
+.button h1 {
+    margin: 0;
+    padding: 0;
+}

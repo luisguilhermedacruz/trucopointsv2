@@ -1,0 +1,64 @@
+@import '../../variables.css';
+
+.input_defined{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top:20px;
+}
+
+.input_defined .inputs h1{
+    margin: 0;
+    font-family: var(--font_one);
+    font-size: 20px;
+}
+
+.input_defined .inputs_players{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input_defined .inputs_players .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input_defined input{
+    width: 170px;
+    height: 40px;
+    border: 2px solid #000000;
+}
+
+.input_defined input::placeholder{
+    font-size: 10px;
+}
+
+.input_defined .buttons_players{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.input_defined .buttons_players h1{
+    font-family: var(--font_two);
+    background: var(--color_white);
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: var(--color_red);
+    border: 4px solid #000000;
+}
+
+.input_defined .button_next{
+    background-color: var(--color_white);
+    padding: 10px;
+    border-radius: 30px;
+    font-family: var(--font_two);
+    font-weight: 700;
+    color: var(--color_red);
+    border: solid 5px #000000;
+    font-size: 30px;
+}

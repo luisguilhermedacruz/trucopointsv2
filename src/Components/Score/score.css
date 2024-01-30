@@ -1,0 +1,78 @@
+@import '../../variables.css';
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score .title{
+    font-family: var(--font_one);
+    font-size: 12px;
+    background: transparent;
+    border: 0;
+    color: var(--color_white);
+    text-align: center;
+    margin:20px;
+}
+
+.score img{
+    width: 60px;
+    height: auto;
+}
+
+.score h2{
+    font-family: var(--font_two);
+    font-size: 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.score h3{
+    font-family: var(--font_one);
+    font-size: 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.score h4{
+    font-family: var(--font_score);
+    font-size: 70px;
+    color: var(--color_red);
+    margin-top: 40px;
+}
+
+.score .score_teams{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.score .score_teams .teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color_white);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.score .buttons_reset{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+}  
+
+.score .buttons_reset button {
+    background-color: var(--color_white);
+    padding: 10px;
+    border-radius: 30px;
+    font-family: var(--font_one);
+    font-weight: 700;
+    color: var(--color_red);
+    border: solid 2px #000000;
+    font-size: 15px;
+}

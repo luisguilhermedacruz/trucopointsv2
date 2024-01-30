@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@700&family=Raleway:wght@400;700&display=swap');
+
+
+:root {
+    --color_of_background: #252525;
+    --font_one: 'Raleway', sans-serif;
+    --font_two:'Bungee Inline', sans-serif;
+    --color_red:#CD200F;
+    --color_white: #FFFCFF;
+    --font_score: 'Montserrat' , sans-serif;
+}
+

@@ -1,0 +1,67 @@
+@import '../../variables.css';
+
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;    
+}
+
+.form h1{
+    font-family: var(--font_one);
+    color: var(--color_white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 18px 20px;
+}
+
+.form_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+}
+
+.form_buttons .form_buttons_button_aleatory,
+.form_buttons .form_buttons_button_defined {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form_buttons h2{
+    color: var(--color_white);
+    font-family: var(--font_one);
+    margin: 4px 0 0 0;;
+    font-size: 16px;
+}
+
+.form_buttons img{
+    background-color: var(--color_red);
+    padding: 18px;
+    border-radius: 50px;
+    width:4rem;
+    height: auto;
+    border: 4px #000000 solid
+}
+
+.form_buttons .form_buttons_button_aleatory.selected,
+.form_buttons .form_buttons_button_defined.selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color_white);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form_buttons .form_buttons_button_aleatory.selected .text_aleatory.selected,
+.form_buttons .form_buttons_button_defined.selected .text_defined.selected {
+    color: var(--color_red);
+}
