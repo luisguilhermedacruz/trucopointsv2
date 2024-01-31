@@ -28,12 +28,20 @@ const Score = ({ teamsData }) => {
   }, []);
 
   const scoreChange = (team, amount) => {
+    let newScore;
+  
     if (team === 1) {
-      const newScore = Math.min(12, Math.max(0, team1Score + amount));
+      newScore = Math.min(12, Math.max(0, team1Score + amount));
       setTeam1Score(newScore);
     } else if (team === 2) {
-      const newScore = Math.min(12, Math.max(0, team2Score + amount));
+      newScore = Math.min(12, Math.max(0, team2Score + amount));
       setTeam2Score(newScore);
+    }
+  
+    if (newScore === 11) {
+      alert(`Atenção Time ${team} 11 pontos é MÃO DE 11!`);
+    } else if (newScore === 12) {
+      alert(`PARABÉNS TIME ${team} VOCÊ VENCEU ESSES PATOS!`);
     }
   };
 
