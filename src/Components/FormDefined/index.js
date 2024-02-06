@@ -60,7 +60,7 @@ const FormDefined = () => {
               <div className="inputs">
                 <h1 className="title_inputs">TIME 1</h1>
                 {Array.from({ length: selectedButton }, (_, index) => (
-                  <input
+                  <input 
                     key={`player${index + 1}`}
                     type="text"
                     placeholder={`NOME DO JOGADOR`}
